@@ -73,7 +73,7 @@ defmodule Ueberauth.Strategy.Notion do
   end
 
   @doc """
-  Includes the credentials from the GitHub response.
+  Includes the credentials from the Notion response.
   """
   def credentials(conn) do
     auth_data = conn.private.notion_authorization
