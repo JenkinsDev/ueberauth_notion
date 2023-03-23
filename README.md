@@ -1,5 +1,8 @@
 # Überauth Notion
 
+[![Module Version](https://img.shields.io/hexpm/v/ueberauth_notion.svg)](https://hex.pm/packages/ueberauth_notion)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/ueberauth_notion/)
+
 > Notion OAuth2 strategy for Überauth.
 
 ## Installation
@@ -11,7 +14,7 @@
     ```elixir
     def deps do
       [
-        {:ueberauth_notion, "~> 0.8"}
+        {:ueberauth_notion, "~> 0.1.1"}
       ]
     end
     ```
@@ -77,13 +80,3 @@ For an example implementation see the [Überauth Example](https://github.com/ueb
 Depending on the configured url you can initiate the request through:
 
     /auth/notion
-
-Or with options:
-
-    /auth/notion
-
-## Copyright and License
-
-Copyright (c) 2023 David Jenkins
-
-This library is released under the MIT License. See the [LICENSE.md](./LICENSE.md) file
